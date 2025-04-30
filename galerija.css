@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+ color: #ffffff;
+  background: #121212;
+*{
+  padding: 0;
+  margin: 0;
+ box-sizing: border-box;
+
+}
+  header{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: Irish Grover;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+    margin: 0px 40px;
+    font-size: 30px;
+  }
+ 
+  h1{
+    position: relative;
+    right: 210px;
+  }
+  h4{
+    position: relative;
+    right: 210px;
+  }
+  
+  .Logo {
+    width: 100px;
+    margin-right: 0;
+  }
+
+ 
+  #gallery {
+    color: #BF1B2C;
+  }
+ 
+
+
+  .kont1 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+ 
+  }
+
+  .kont2 {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    
+  }
+
+  .kont3 {
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    
+  }
+
+  .kont4 {
+    position: absolute;
+    left: 1150px;
+    top: 200px;
+   
+  }
+
+  .kont5 {
+    position: absolute;
+    left: 1500px;
+    top: 200px;
+   
+  }
+ .kont6 {
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+ }
+   .kont7 {
+    position: absolute;
+    left: 450px;
+    bottom: 200px;
+   }
+   .kont8 {
+    position: absolute;
+    left: 800px;
+    bottom: 200px;
+   }
+   .kont9 {
+    position: absolute;
+    left: 1150px;
+    bottom: 200px;
+   }
+   .kont10 {
+    position: absolute;
+    left: 1500px;
+    bottom: 200px;
+   }
+
+  #pic {
+    border: 3px solid #FF0000;
+  }
+p {
+  text-align: center;
+  font-size: 16px;
+}
+  footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: red;
+     color: white;
+     height: 40px;
+  }
+  #kontakti {
+  margin-right: 1660px;
+  }
+  #footertext {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

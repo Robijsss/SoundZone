@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+  width: 100%;
+ color: #ffffff;
+  background: #121212;
+*{
+  padding: 0;
+  margin: 0;
+ box-sizing: border-box;
+
+}
+  header{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: Irish Grover;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+    margin: 0px 40px;
+    font-size: 30px;
+  }
+  .Logo {
+    width: 100px;
+    margin-right: 0;
+  }
+  h1{
+    position: relative;
+    right: 210px;
+  }
+  h4{
+    position: relative;
+    right: 210px;
+  }
+  img {
+    margin: 10px;
+  }
+  #login {
+color: #BF1B2C;
+  }
+  footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: red;
+     color: white;
+     height: 40px;
+  }
+  #kontakti {
+  margin-right: 1660px;
+  margin-left: 10px;
+  }
+  #footertext {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sudziba {
+  position: relative;
+    top: 200px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #D85555;
+    padding: 2em;
+    border-radius: 0.5em;
+  }
+  label {
+    margin-bottom: 0.5em;
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+  input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  button {
+    padding: 0.7em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #BF1B2C;
+  }
+  button:active {
+    background-color: #BF1B2C;
+  }
+  #first {
+    position: absolute;
+    top: 350px;
+    right: 100px;
+  }
+  #second {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+  }
